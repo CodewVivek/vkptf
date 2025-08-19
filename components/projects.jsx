@@ -25,8 +25,7 @@ const projects = [
             "Seamless team collaboration features"
         ],
         images: [
-            "/images/oddai.png",
-
+            "/public/oddai.png",
         ],
         live: "https://oddenoughai.netlify.app/"
     },
