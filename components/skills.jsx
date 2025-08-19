@@ -10,24 +10,18 @@ import { HiCursorClick } from "react-icons/hi";
 
 const skillCategories = [
     {
-        title: "Frontend Technologies",
+        title: "Technologies",
         skills: [
             { name: "HTML", icon: <FaHtml5 className="text-orange-500" /> },
             { name: "CSS", icon: <FaCss3 className="text-blue-500" /> },
             { name: "Tailwind CSS", icon: <RiTailwindCssFill className="text-cyan-400" /> },
             { name: "React.js", icon: <FaReact className="text-blue-500" /> },
-        ],
-    },
-    {
-        title: "Programming Languages",
-        skills: [
             { name: "JavaScript", icon: <FaJs className="text-yellow-400" /> },
             { name: "Java", icon: <FaJava className="text-orange-600" /> },
             { name: "Python", icon: <FaPython className="text-blue-600" /> },
             { name: "Node.js", icon: <RiNodejsFill className="text-green-600" /> },
         ],
     },
-   
     {
         title: "Databases",
         skills: [
