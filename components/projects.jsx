@@ -1,5 +1,4 @@
 "use client"
-
 import { motion } from "framer-motion"
 import Image from "next/image"
 import { Badge } from "@/components/ui/badge"
@@ -8,6 +7,29 @@ import { Github, ExternalLink } from "lucide-react"
 import Link from "next/link"
 
 const projects = [
+    {
+        title: "Odd Enough AI",
+        description: "Odd Enough AI is a platform where the Odd Enough team leverages AI tools such as GPT-4, Sonar (Perplexity API), and custom Google search to conduct audits, manage CRM details, and enhance their agency’s overall efficiency and profitability.",
+        tech: [
+            "React.js",
+            "Tailwind CSS",
+            "Supabase",
+            "ChatGPT-4",
+            "Sonar (Perplexity API)",
+            "Node.js"
+        ],
+        features: [
+            "Comprehensive company audits",
+            "AI-powered analytics and insights",
+            "Customer growth and marketing tools",
+            "Seamless team collaboration features"
+        ],
+        images: [
+            "/images/oddai.png",
+
+        ],
+        live: "https://oddenoughai.netlify.app/"
+    },
     {
         title: "Launch It",
         description: "Launch It is a dynamic platform built to empower startups by streamlining the discovery, submission, and showcasing of innovative ventures.",
